@@ -1,0 +1,46 @@
+/* App.css */
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes the app take up full vertical space */
+}
+
+main {
+  flex: 1; /* Pushes footer to the bottom */
+  padding: 2rem;
+  text-align: center;
+}
+
+.header, .footer {
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header nav a {
+  color: #61dafb;
+  margin-left: 1rem;
+  text-decoration: none;
+}
