@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import CoursesPage from './pages/Coursespage';
 import Footer from './components/Footer';
 import Home from './components/Home'; 
 import EnrollmentForm from './pages/EnrollmentForm'; 
