@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home'; 
 import EnrollmentForm from './pages/EnrollmentForm'; 
-import CoursesPage from './pages/CoursesPage';
 import NewMember from './pages/NewMember';
 import CourseMan from './pages/CourseMan'; // Import the NewMember page 
 import CustomerMemberManagement from './pages/CustomerMemberManagement';
