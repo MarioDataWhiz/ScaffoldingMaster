@@ -19,10 +19,14 @@ main {
   text-align: center;
 }
 
+
 .header, .footer {
   padding: 1rem;
   background-color: #222;
   color: #fff;
+  text-align: right;
+}
+.footer {
   text-align: center;
 }
 
